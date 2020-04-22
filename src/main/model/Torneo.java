@@ -118,7 +118,7 @@ public class Torneo {
         }
     }
 
-    //TODO Estoy seguro que esta funcion TIENE que ser generica, tener 2 funciones que solo devuelven un elemento de un arreglo esta mal teoricamente
+    //TODO Estoy seguro que esta funcion TIENE que ser generica, tener 2 funciones que solo devuelven un elemento de un arreglo esta mal teoricamente, preguntar despues
     public Humano elegirCombatientes(List<Humano> tv) {
         int size = tv.size();
         if (size > 0) {
